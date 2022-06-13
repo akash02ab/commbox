@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>commbox</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>commbox</h2>
+      <h1>How Commbox can save you a lot of money</h1>
+    </div>
+    <div class="inputs">
+      <div class="input-container">
+        <label for="number-of-agents">Number of Agents</label>
+        <input type="number" name="number-of-agents" id="number-of-agents" min="0" placeholder="5">
+      </div>
+      <div class="input-container">
+        <label for="daily-calls">Daily Calls</label>
+        <input type="number" name="daily-calls" id="daily-calls" min="0" placeholder="50">
+      </div>
+      <div class="input-container dollar">
+        <label for="hourly-agent-salary">Hourly Agent Salary</label>
+        <input type="number" name="hourly-agent-salary" id="hourly-agent-salary" min="0"
+        placeholder="20">
+      </div>
+      <div class="input-container range-slider">
+        <label for="hours-per-shift">Hours Per Shift</label>
+        <input type="range" name="hours-per-shift" id="hours-per-shift" min="5" max="12" value="10">
+        <span class="range-slider-fill"></span>
+        <span class="range-min-count">5</span>
+        <span class="range-count">10</span>
+        <span class="range-max-count">12</span>
+      </div>
+    </div>
+
+    <div class="boxes">
+      <div class="box">
+        <h5>Conv. Cost</h5>
+        <div class="amount">
+          <h2>20$</h2>
+          <span>$</span>
+        </div>
+      </div>
+      <div class="box">
+        <h5>Daily Cost</h5>
+        <div class="amount">
+          <h2>1000$</h2>
+          <span>$</span>
+        </div>
+      </div>
+      <div class="box">
+        <h5>Monthly Cost</h5>
+        <div class="amount">
+          <h2>20,000$</h2>
+          <span>$</span>
+        </div>
+      </div>
+      <div class="box">
+        <h5>Annual Cost</h5>
+        <div class="amount">
+          <h2>240,000$</h2>
+          <span>$</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
